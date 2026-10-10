@@ -1,0 +1,8 @@
+# Secrets
+config.php
+
+# Fichiers système et éditeur
+.vscode/
+Thumbs.db
+desktop.ini
+
