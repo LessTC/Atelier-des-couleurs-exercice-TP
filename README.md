@@ -13,11 +13,17 @@ Page d'accueil responsive et dynamique, avec un espace administrateur sécurisé
 - Message d'erreur affiché au visiteur si les horaires ne peuvent pas être chargés
 - Année du pied de page mise à jour automatiquement
 
+<img width="1879" height="1948" alt="image" src="https://github.com/user-attachments/assets/93567901-ced0-4b37-8a5d-c2b13c1ab7b3" />
+
+
 **Espace administrateur**
 - Connexion par mot de passe (stocké sous forme d'empreinte, jamais en clair)
 - Pages d'administration protégées par session
 - Modification des horaires via un formulaire, avec message de confirmation
 - Déconnexion
+
+<img width="1879" height="918" alt="image" src="https://github.com/user-attachments/assets/dde7481a-0ab7-4d06-b405-11bffd3e80aa" />
+
 
 ## Technologies
 
