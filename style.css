@@ -1,0 +1,136 @@
+/* ===== Variables (à remplacer par les valeurs exactes de ta charte Figma) ===== */
+:root {
+  --couleur-primaire: #73264a;
+  --couleur-secondaire: #ff66cc;
+  --couleur-fond: #f7f3f5;
+  --couleur-texte: #3f1528;
+  --couleur-neutre: #a8949c;
+  --police-titres: "Courier New", monospace;
+  --police-texte: Arial, sans-serif;
+}
+
+/* ===== Base ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--police-texte);
+  color: var(--couleur-texte);
+  background-color: var(--couleur-fond);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--police-titres);
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+/* ===== En-tête et navigation ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--couleur-primaire);
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* ===== Bouton ===== */
+.bouton {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--couleur-primaire);
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+}
+
+.bouton:hover,
+.bouton:focus {
+  background-color: var(--couleur-texte);
+}
+
+/* ===== Cartes ===== */
+.cartes {
+  display: grid;
+  gap: 1rem;
+}
+
+article {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+article h3,
+article p {
+  padding: 0 1rem;
+}
+
+/* ===== Pied de page ===== */
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--couleur-neutre);
+}
+
+/* ===== Desktop ===== */
+@media (min-width: 768px) {
+  section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
+
+  #accueil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .cartes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
