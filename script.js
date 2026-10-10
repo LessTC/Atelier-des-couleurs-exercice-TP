@@ -57,3 +57,6 @@ async function chargerDonnees() {
 }
 
 chargerDonnees();
+
+// -- Footer - année --//
+document.getElementById("annee").textContent = new Date().getFullYear();
