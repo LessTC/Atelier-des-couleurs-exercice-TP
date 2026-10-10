@@ -134,3 +134,19 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+#badge {
+  font-family: var(--police-texte);
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  color: white;
+}
+
+.ouvert {
+  background-color: #2e7d32;
+}
+
+.ferme {
+  background-color: #c62828;
+}

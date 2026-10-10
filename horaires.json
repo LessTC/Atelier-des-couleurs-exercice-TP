@@ -1,0 +1,9 @@
+[
+  { "jour": "Lundi", "ouverture": null, "fermeture": null },
+  { "jour": "Mardi", "ouverture": "13:00", "fermeture": "18:00" },
+  { "jour": "Mercredi", "ouverture": "10:00", "fermeture": "18:00" },
+  { "jour": "Jeudi", "ouverture": "10:00", "fermeture": "18:00" },
+  { "jour": "Vendredi", "ouverture": "10:00", "fermeture": "19:00" },
+  { "jour": "Samedi", "ouverture": "09:30", "fermeture": "19:00" },
+  { "jour": "Dimanche", "ouverture": null, "fermeture": null }
+]
